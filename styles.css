@@ -1,0 +1,181 @@
+/* // <weight>: Use a value from 300 to 900
+// <uniquifier>: Use a unique and descriptive class name
+
+.winky-sans-<uniquifier> {
+  font-family: "Winky Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+*{
+  box-sizing: border-box;
+}
+
+
+header{
+  background-color: rgb(220, 220, 220);
+  display: flex;
+  width: 100vw;
+  height: 9.5vh;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  position: fixed;
+}
+
+.hearder_left{
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  justify-content: start;
+  align-items: center;
+  width: 49vw;
+  height: 7vh;
+  border: none;
+}
+
+h1{
+  background-color: white;
+  font-family: "Winky Sans", sans-serif;
+  width: 35vw;
+  height: 4vh;
+}
+
+main{
+  display: flex;
+  width: 100vw;
+}
+
+
+.header_right{
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  width: 49vw;
+  height: 7vh;
+  justify-content: space-around;
+  align-items: center;
+  border: none;
+}
+
+.bheader{
+  background-color: rgb(255, 255, 255);
+  font-family: "Winky Sans", sans-serif;
+  font-size: 1.1em;
+  height: 6vh;
+  border: none;
+}
+
+.main_left{
+  background-color: rgb(255, 165, 0);
+  width: 50vw;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.text_left_top{
+  position: relative;
+  top: 38vh;
+  left: 7vw;
+  width: 23vw;
+  height: 6vh;
+  font-size: 25px;
+
+}
+
+.text_left_bottom{
+  position: relative;
+  top: 40vh;
+  left: 7vw;
+  width: 450px;
+  height: 3vh;
+  font-size: 1.5em;
+}
+
+.button_comprar_big{
+  width: 18vw;
+  height: 5.5vh;
+  position: relative;
+  left: 8.5vw;
+  top: 45vh;
+  border-radius: 15px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.button_comprar_big:hover{
+  background-color: rgb(201, 201, 201);
+  border: none;
+}
+
+.main_right{
+  background-color: rgb(24, 119, 242);
+  width: 50vw;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.box_logo{
+  display: flex;
+  height: 55vh;
+  width: 59vw;
+  align-items: center;
+  justify-content: center;
+  position:absolute;
+  top: 4vh;
+  left: 20.9vw;
+}
+
+.img_porsche_logo{
+  background-repeat: no-repeat;
+  width: 25vw;
+  height: 50vh;
+}
+
+.box_logo_gray{
+  display: flex;
+  position: absolute;
+  width: 40vw;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+  top: 32vh;
+  left: 33vw;
+}
+
+.img_porsche_gray{
+  display: flex;
+  height: 80vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.text_right{
+  display: flex;
+  height: 38vh;
+  width: 48.6vw;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+}
+
+.text_right_top{
+  background-color: rgb(254, 0, 0);
+  font-size: 2.4em;
+  width: 15.7vw;
+  height: 5vh;
+  text-align: center;
+  position: relative;
+}
+
+.text_right_bottom{
+  background-color: rgb(255, 255, 255);
+  font-size: 1.49em;
+  width: 15.7vw;
+  height: 3vh;
+  position: relative;
+}
