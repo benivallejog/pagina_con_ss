@@ -23,6 +23,7 @@ header{
   align-items: center;
   border: none;
   position: fixed;
+  z-index: 1000;
 }
 
 .hearder_left{
@@ -111,6 +112,14 @@ main{
   border: none;
 }
 
+a{
+  text-decoration: none;
+}
+
+a:visited{
+  color: white;
+}
+
 .main_right{
   background-color: rgb(24, 119, 242);
   width: 50vw;
@@ -126,7 +135,7 @@ main{
   align-items: center;
   justify-content: center;
   position:absolute;
-  top: 4vh;
+  top: 2vh;
   left: 20.9vw;
 }
 
@@ -136,20 +145,20 @@ main{
   height: 50vh;
 }
 
-.box_logo_gray{
+.box_porsche_green{
   display: flex;
   position: absolute;
   width: 40vw;
   height: 80vh;
   justify-content: center;
   align-items: center;
-  top: 32vh;
-  left: 33vw;
+  top: 25vh;
+  left: 30.6vw;
 }
 
-.img_porsche_gray{
+.img_porsche_green{
   display: flex;
-  height: 80vh;
+  height: 60vh;
   width: 100vw;
   align-items: center;
   justify-content: center;
@@ -179,4 +188,29 @@ main{
   width: 15.7vw;
   height: 3vh;
   position: relative;
+}
+
+.box_button_help{
+  width: 8vw;
+  height: 11vh;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 999;
+  margin: 15px;
+}
+
+#button_help{
+  width: 8vw;
+  height: 11vh;
+  background-color: rgb(184, 182, 182);
+  color: white;
+  font-size: 1.5em;
+  border: none;
+  border-radius: 10px;
+}
+
+.icono_chat{
+  width: 4vw;
+  height: 5vh;
 }
